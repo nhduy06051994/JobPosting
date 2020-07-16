@@ -5,24 +5,33 @@
     {
 		"@context" : "https://schema.org/",
 		"@type" : "JobPosting",
-		"datePosted" : "2020-07-15",
-		"validThrough" : "2017-10-15",
-		"title" : "Sales Manager (Software)",
+		"identifier": {
+			"@type": "PropertyValue",
+			"name": "Adecco Company",
+			"value": "ma-so-thue"
+		},
 		"hiringOrganization": {
 			"@type": "Organization",
 			"name": "Adecco",
 			"sameAs": "https://adecco.com.vn",
 			"logo" : "https://adecco.com.vn/assets/images/logos/adecco-logo.png"
 		},
+		"datePosted" : "2020-07-15",
+		"validThrough" : "2017-10-15",
+		"title" : "Sales Manager (Software)",
+		"url": "https://adecco.com.vn/vn/jobs/detail/2210",
 		"jobLocation": {
 			"@type": "Place",
 			"address": {
 				"@type": "PostalAddress",
-				"addressLocality": "Cần Thơ",
-				"addressRegion": "Quận Ninh Kiều",
-				"addressCountry": "Vietnam",
-				"streetAddress": "160 đường 30/4",
-				"postalCode": "94000"
+				"addressLocality": "160 đường 30/4 Quận Ninh Kiều, Thành Phố Cần Thơ",
+				"streetAddress": "160 đường 30/4 Quận Ninh Kiều, Thành Phố Cần Thơ",
+				"addressRegion": "Cần Thơ",
+				"postalCode": "94000",
+				"addressCountry": {
+					"@type": "Country",
+					"name": "VN"
+				}
 			}
 		},
 		"employmentType": "TEMPORARY",
